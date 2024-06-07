@@ -1,52 +1,206 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-    <title>Encriptador Challenge</title>
+    <title>Portafolio de Gabriel</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <img class="logo" src="Imagenes/Logo.svg" alt="Logo">
-    </header>
-    <main>
-        <section class="seccion1">
-            <div class="contenedor-caja-texto">
-                <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+    <nav>
+        <div class="profile">
+            <img src="Imagenes/icono.png" alt="Icono" class="profile-icon">
+            <span>Gabriel Hernandez</span>
+        </div>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>    
+    
+    <section id="sobre-mi">
+        <div class="texto">
+            <h1>Hola, mi nombre es Gabriel</h1>
+            <p>Soy programador y me apasiona crear aplicaciones web que resuelvan problemas reales.</p>
+            <ul class="social-links">
+                <li><a href="https://github.com/Goagsof" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/gabriel-hern%C3%A1ndez-2b9559215/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/goagsof/" target="_blank">Instagram</a></li>
+                <li><a href="Imagenes/Gabriel Hernández Miranda CV 2024 Ingles.pdf" target="_blank">Currículum</a></li>
+            </ul>
+        </div>
+        <img src="Imagenes/foto.jpg" alt="Foto de Gabriel" class="perfil-foto">
+    </section>
 
-            </div>
-            <div class="alerta">
-                <img src="Imagenes/alerta.svg" alt="alerta">
-                <p> solo letras minusculas y sin asentos</p>
-            </div>
-            <div class="contenedor-botones">
-                <input type="button" class="btn-encriptar" value="Encriptar">
-                <input type="button" class="btn-desencriptar" value="Desencriptar">
-            </div>
-        </section>
-        <section class="seccion2">
-            <div class="contenedor-munieco">
-                <img src="Imagenes/Muñeco.svg" alt="munieco">
-            </div>
-            <div class="contenedor-parrafo">
-                <h3 class="titulo"> Ningun mensaje fue <br> encontrado</h3>
-                <p class="parrafo"> Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+    <section id="detalles-sobre-mi">
+        <div class="contenido-detalles">
+            <h2>Sobre mí</h2>
+            <p>Soy Gabriel, un apasionado por el aprendizaje y la exploración constante. Me caracterizo por mi curiosidad insaciable y mi voluntad de ayudar a los demás. Disfruto plenamente cada momento de mi vida, valorando cada experiencia como una oportunidad de crecimiento personal y profesional. Soy conocido por mi determinación y enfoque cuando me comprometo con algo que me apasiona, lo que me impulsa a alcanzar mis metas con perseverancia y creatividad.</p>
+        </div>
+    </section>
+    
 
-            </div>
-            <div class="contenedor-copiar">
-                <input type="button" class="btn-copiar" value="Copiar">
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li class="skill-item">
+                <img src="Imagenes/html.png" alt="HTML Icon" class="skill-icon">
+                HTML
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/css.png" alt="CSS Icon" class="skill-icon">
+                CSS
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/JS.png" alt="JavaScript Icon" class="skill-icon">
+                JavaScript
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/react.png" alt="React Icon" class="skill-icon">
+                React
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/Node JS.png" alt="Node.js Icon" class="skill-icon">
+                Node.js
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/python.png" alt="python Icon" class="skill-icon">
+                Python
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/csharp.png" alt="c# Icon" class="skill-icon">
+                C#
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/c.png" alt="c Icon" class="skill-icon">
+                C
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/java.png" alt="java Icon" class="skill-icon">
+                Java
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/php.png" alt="php Icon" class="skill-icon">
+                php
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/visual studio.png" alt="Visual Basic Icon" class="skill-icon">
+                Visual Basic
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/SQL.png" alt="SQL Icon" class="skill-icon">
+                SQL
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/mongodb.png" alt="mongodb Icon" class="skill-icon">
+                MongoDB
+            </li>
+            <li class="skill-item">
+                <img src="Imagenes/mysql.png" alt="mysql Icon" class="skill-icon">
+                MySQL
+            </li>
+        </ul>
+    </section>
+    
 
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul class="hobbies-list">
+            <li class="hobby-item">
+                <img src="Imagenes/mobie.png" alt="Ver Películas Icon" class="hobby-icon">
+                Ver películas
+            </li>
+            <li class="hobby-item">
+                <img src="Imagenes/game.png" alt="Jugar Videojuegos Icon" class="hobby-icon">
+                Jugar videojuegos
+            </li>
+            <li class="hobby-item">
+                <img src="Imagenes/cycling.png" alt="Practicar Ciclismo Icon" class="hobby-icon">
+                Practicar ciclismo
+            </li>
+        </ul>
+    </section>
+    
+
+    <section id="formacion">
+        <h2>Formación Académica</h2>
+        <div class="formacion-list">
+            <div class="formacion-item">
+                <img src="Imagenes/INA Logo.png" alt="INA" class="formacion-imagen">
+                <p>Técnico en reparación de equipo electrónico</p>
+                <p>Instituto Nacional de Aprendizaje (INA), 2020</p>
             </div>
-            <div class="contenedor-resultado">
-                <p class="texto-resultado"></p>
+            <div class="formacion-item">
+                <img src="Imagenes/CUC logo.png" alt="CUC" class="formacion-imagen">
+                <p>Diplomado en TI</p>
+                <p>Colegio Universitario de Cartago (CUC), 2024</p>
             </div>
-        </section>
-    </main>
+            <div class="formacion-item">
+                <img src="Imagenes/Alura Logo.jpg" alt="Certificación Alura" class="formacion-imagen">
+                <p>Certificación en UX Design</p>
+                <p>Alura, 2024</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="proyectos">
+        <h2>Experiencia profesional</h2>
+        <div class="proyecto">
+            <div class="proyecto-texto">
+                <h3>Encriptador de texto</h3>
+                <p>Challenge de Oracle.</p>
+                <div class="proyecto-enlaces">
+                    <a href="https://github.com/Goagsof/Challenge-Encriptaci-n" class="boton" target="_blank">Repositorio</a>
+                    <a href="https://goagsof.github.io/Challenge-Encriptaci-n/" class="boton" target="_blank">Ver demo</a>
+                </div>
+            </div>
+            <img src="Imagenes/Encriptado.png" alt="Imagen del Proyecto 1" class="proyecto-imagen">
+        </div>
+        <div class="proyecto">
+            <div class="proyecto-texto">
+                <h3>Subasta 2</h3>
+                <p>Proyecto CUC.</p>
+                <div class="proyecto-enlaces">
+                    <a href="https://github.com/Goagsof/Subasta" class="boton" target="_blank">Repositorio</a>
+                    <a href="https://goagsof.github.io/Subasta/" class="boton" target="_blank">Ver demo</a>
+                </div>
+            </div>
+            <img src="Imagenes/Subasta.png" alt="Imagen del Proyecto 2" class="proyecto-imagen">
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-contenido">
+            <img src="Imagenes/contacta-con-nosotros.png" alt="Imagen de contacto" class="contacto-imagen">
+            <div class="contacto-formulario">
+                <form action="tu-form-handler" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+    
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+                <p>O puedes contactarme directamente a <a href="mailto:gagohm@gmail.com">gagohm@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Desarrollado por Gabriel Hernandez<br>2024</p>
+    </footer>
+    
+
     <script src="script.js"></script>
 </body>
-
 </html>
